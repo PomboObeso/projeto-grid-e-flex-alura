@@ -206,6 +206,9 @@ body {
     .titulo-secao {
         grid-column: span 4;
     }
+    .titulo-secao--picos {
+        grid-column: span 4;
+    }
 }
 
 .cartao {
@@ -408,3 +411,13 @@ body {
 
 /* Estilização da pagina Picos -> */
 
+.cartao__botao--local::before{
+    content: "\e908";
+    font-size: 24px;
+}
+
+.titulo-secao--picos {
+    margin-top: 16px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
