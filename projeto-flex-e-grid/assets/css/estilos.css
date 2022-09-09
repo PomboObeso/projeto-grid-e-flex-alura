@@ -421,3 +421,14 @@ body {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+.cartao__conteudo--picos {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 18px;
+}
+
+.cartao__imagem--picos {
+    margin-bottom: 10px;
+}
